@@ -12,5 +12,13 @@ fn main() -> io::Result<()> {
     let n = f.read(&mut buffer)?;
     println!("The bytes: {:?}", &buffer[..n]);
     println!("The string: {}", String::from_utf8_lossy(&buffer[..n]));
+    println!("{}",checkeven(3));
     Ok(())
+}
+fn checkeven(n: i32) -> String {
+    if n % 2 == 0 {
+        return String::from("True");
+    } else {
+        return String::from("False");
+    }
 }
