@@ -2,6 +2,7 @@ use std::io;
 
 //https://code.visualstudio.com/docs/languages/rust
 //https://doc.rust-lang.org/rust-by-example/
+//https://youtu.be/uKlHwko36c4 make libary for many langs
 use io::prelude::*;
 
 fn main() -> io::Result<()> {
