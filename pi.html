@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>PI</title>
+    
+</head>
+
+<body>
+    <script>
+        pi = pi + sign * (four / (two * k + one));
+        k = k + one;
+        sign = sign * -one;
+        function pi(n) {
+            var pi = 0;
+            var k = 0;
+            var sign = 1;
+            while (k < n) {
+                pi = pi + sign * 4 / (2 * k + 1);
+                k = k + 1;
+                sign = -sign;
+            }
+            return pi;
+            //call the pi function and time how long it takes
+            document.body.innerHTML ="webfgvewv";
+            var start = new Date().getTime();
+            var pi = pi(1000000);
+            var end = new Date().getTime();
+            var time = end - start;
+            document.body.innerHTML = ("pi = " + pi + " calculated in " + time + " milliseconds");
+
+        }
+    </script>
+</body>
+
+</html>
