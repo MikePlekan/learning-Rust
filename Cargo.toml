@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 rust_decimal = "1.29.1"
+rocket = "0.4.7"
